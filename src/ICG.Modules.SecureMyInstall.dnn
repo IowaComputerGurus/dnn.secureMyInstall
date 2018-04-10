@@ -1,0 +1,76 @@
+<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="ICG.Modules.SecureMyInstall" type="Module" version="01.00.00">
+      <friendlyName>Secure My Install</friendlyName>
+      <description>Utility Module that will change passwords from Encrypted -> Hashed for improved security.</description>
+      <owner>
+        <name>Mitchel Sellers</name>
+        <organization>IowaComputerGurus Inc.</organization>
+        <url>http://www.iowacomputergurus.com</url>
+        <email>msellers@iowacomputergurus.com</email>
+      </owner>
+      <license>
+          <![CDATA[ 
+        <p><strong>Copyright &copy; 2006-2012 IowaComputerGurus Inc.  All Rights Reserved</strong></p>
+        <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
+         TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+         THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+         CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+         DEALINGS IN THE SOFTWARE.</p>
+         
+        <p>By agreeing to this license, you agree to follow all dialogs and instructions provided with this module.  Failure
+        to comply with this instruction could result in corruption of DotNetNuke user/password records and failure to be able to
+        access your portal.</p>]]>
+      </license>
+      <releaseNotes><![CDATA[
+        <p>Version 1.0.0 - Initial public release.
+      ]]>
+      </releaseNotes>
+      <components>
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>DesktopModules\ICG.Modules.SecureMyInstall</basePath>
+            <resourceFile>
+              <name>Resources.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+
+        <component type="Module">
+          <desktopModule>
+            <moduleName>Secure My Install</moduleName>
+            <foldername>ICG.Modules.SecureMyInstall</foldername>
+            <supportedFeatures />
+            <moduleDefinitions>
+              <moduleDefinition>
+                <friendlyName>Secure My Install</friendlyName>
+                <defaultCacheTime>0</defaultCacheTime>
+                <moduleControls>
+                  <moduleControl>
+                    <controlKey />
+                    <controlSrc>DesktopModules/ICG.Modules.SecureMyInstall/View.ascx</controlSrc>
+                    <supportsPartialRendering>true</supportsPartialRendering>
+                    <controlTitle />
+                    <controlType>View</controlType>
+                    <iconFile />
+                    <helpUrl />
+                    <viewOrder>0</viewOrder>
+                  </moduleControl>
+                </moduleControls>
+              </moduleDefinition>
+            </moduleDefinitions>
+          </desktopModule>
+        </component>
+        <component type="Assembly">
+          <assemblies>
+            <basePath>bin</basePath>
+            <assembly>
+              <path>bin</path>
+              <name>ICG.Modules.SecureMyInstall.dll</name>
+            </assembly>
+          </assemblies>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>

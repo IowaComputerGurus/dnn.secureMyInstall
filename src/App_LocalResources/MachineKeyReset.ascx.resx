@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="lblInstructions.Text">
+		<value>Instructions:&lt;br&gt;&lt;br&gt;1.Create new Page with a Refresh Interval of 60 seconds and Provide View Access to Registered Users&lt;br&gt;2. Add Instance Of ResetMachineKey Module to Page&lt;br&gt;3. Execute Machine Key Reset Phase 1&lt;br&gt;4. Register As a New Temp User For Site and Browse to ResetMachineKey Page&lt;br&gt;5. Escalate Current User to Super User&lt;br&gt;6. Remove View Access from Registered Users for ResetMachineKey Page&lt;br&gt;7. Execute Machine Key Reset Phase 2&lt;br&gt;8. Remove Temp User Account</value>
+	</data>
+	<data name="plValidationKey.Text">
+		<value>Validation Key</value>
+	</data>
+	<data name="plValidationKey.Help">
+		<value>The current validation key in the web.config file</value>
+	</data>
+	<data name="plDecryptionKey.Text">
+		<value>Decryption Key</value>
+	</data>
+	<data name="plDecryptionKey.Help">
+		<value>The current decryption key in the web.config file</value>
+	</data>
+	<data name="cmdPhase1.Text">
+		<value>Execute Machine Key Reset Phase 1</value>
+	</data>
+	<data name="cmdSuperUser.Text">
+		<value>Escalate Current User to Super User</value>
+	</data>
+	<data name="cmdPhase2.Text">
+		<value>Execute Machine Key Reset Phase 2</value>
+	</data>
+</root>
