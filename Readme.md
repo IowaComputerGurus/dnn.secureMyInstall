@@ -1,6 +1,6 @@
 # DNN Secure My Install
 
-__ Use At Own Risk __
+**_Use At Own Risk_**
 
 This process is provided to help individuals secure their DNN installation, however, due to the nature of the changes it makes, it could result in adverse behaviors
 
