@@ -1,5 +1,8 @@
 # DNN Secure My Install
 
+> [!NOTE]
+> This project has been archived and should be utilized at your own risk depending on your situation.
+
 **_Use At Own Risk_**
 
 This process is provided to help individuals secure their DNN installation, however, due to the nature of the changes it makes, it could result in adverse behaviors
